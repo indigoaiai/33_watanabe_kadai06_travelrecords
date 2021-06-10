@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+    background-color:#b5e6cf;
+    width: 1000px;
+}
+.records{
+    width: 1000px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #006600;
+}
+.latlon{
+    display: flex;
+
+}
+.detail{
+    display: flex;
+    height: 80px;
+}
+#text{
+    margin: 18px 20px 0 0;
+    height: 37px;
+}
+#save {
+    display: inline-block;
+    text-decoration: none;
+    color: #006600;
+    border: solid 2px #006600;
+    background-color: white;
+    /* border-radius: 10px; */
+    transition: .4s;
+    width: 100px;
+    height: 42px;
+    margin: 18px 20px 0 0;
+    }
+
+#save:hover {
+    background: #b5e6cf;
+    color: white;
+    }
+
+.selectb {
+    overflow: hidden;
+}
+.selectb select {
+    height: 30px;
+    padding-right: 1em;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.selectb select::-ms-expand {
+    display: none;
+}
+.selectb.selectbox {
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid #006600;
+    background: #ffffff;
+    padding: 0px;
+    margin: 18px 20px 0 0;
+}
+.selectb.selectbox::before {
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #006600;
+    pointer-events: none;
+}
+.selectb.selectbox select {
+    padding: 8px 38px 8px 8px;
+    color: #006600;
+}
+input{
+    height: 37px;
+    border: solid 2px #006600;
+    color: #006600;
+    margin-top: 0px;
+
+}
+.calender{
+    vertical-align: top;
+    height: 42px;
+    width: 200px;
+}
+.clearbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #006600;
+    border: solid 2px #006600;
+    background-color: white;
+    /* border-radius: 10px; */
+    transition: .4s;
+    width: 100px;
+    height: 38px;
+    margin: 16px 20px 0 20px;
+    text-align: center;
+}
+#clear{
+    margin: 8px;
+
+}
+#list{
+    width: 1148px ;                                 
+    margin: 0 36px 0 36px;
+    justify-content: center;
+}
+
+#cell table td,tr{
+    border: solid 1px;  
+    background-color: white;
+    color: #006600;
+    padding: 20px 30px 20px 30px; */
+ }
+
+#cellall table,td,tr{
+    border: solid 1px;  
+    background-color: white;
+    color: #006600;
+    padding: 20px 30px 20px 30px;
+}
+#cellall table{
+    border: solid 1px;  
+}
+#coladd{
+    margin-left: 20px;
+}
